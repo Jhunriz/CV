@@ -1,21 +1,18 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-
+import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Home from "./Pages/Home";
+import Content from "./Pages/Content";
+import Porfolio from "./Pages/Porfolio";
+import Skills from "./Pages/Skills";
+import About from "./Pages/About";
 import NavBar from "./components/NavBar";
-import Content from "./components/Content";
-import Skills from "./components/Skills";
-import Porfolio from "./components/Porfolio";
-import About from "./components/About";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <Router>
-        <div className="App"></div>
-      </Router>
+    <div>
       {/* <div className="App">
         <NavBar />
         <Content />
@@ -23,7 +20,18 @@ function App() {
         <Skills />
         <Porfolio />
       </div> */}
-    </>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/content" element={<Content />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/porfolio" element={<Porfolio />} />
+          <Route path="skills" element={<Skills />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
