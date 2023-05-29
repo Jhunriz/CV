@@ -3,7 +3,7 @@ import React from "react";
 export default function Skills() {
   return (
     <div className="mx-1 flex flex-wrap gap-5 justify-center">
-      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-blue-600 duration-100 delay-100 hover:opacity-80">
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-blue-600 delay-100 hover:opacity-80 transform hover:scale-105 transition-all duration-300 ease-in-out">
         <a href="https://react.dev/">
           {" "}
           <img
@@ -46,7 +46,7 @@ export default function Skills() {
         </div>
       </div>
       {/* 2 */}
-      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-cyan-950 duration-100 delay-100 hover:opacity-80">
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-cyan-950 delay-100 hover:opacity-80 transform hover:scale-105 transition-all duration-300 ease-in-out">
         <a href="#">
           <img
             class="rounded-t-lg"
@@ -89,7 +89,7 @@ export default function Skills() {
         </div>
       </div>
       {/* 3 */}
-      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-violet-600 duration-100 delay-100 hover:opacity-80">
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-violet-600  delay-100 hover:opacity-80 transform hover:scale-105 transition-all duration-300 ease-in-out">
         <a href="#">
           <img
             class="rounded-t-lg"
@@ -135,7 +135,7 @@ export default function Skills() {
         </div>
       </div>
       {/* 4 */}
-      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-orange-600 duration-100 delay-100 hover:opacity-80">
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-orange-600 hover:opacity-80 transform hover:scale-105 transition-all duration-300 ease-in-out">
         <a href="#">
           <img
             class="rounded-t-lg"
@@ -181,7 +181,7 @@ export default function Skills() {
         </div>
       </div>
       {/* 5 */}
-      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-blue-300 duration-100 delay-100 hover:opacity-80">
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-blue-300 delay-100 hover:opacity-80 transform hover:scale-105 transition-all duration-300 ease-in-out">
         <a href="#">
           <img
             class="rounded-t-lg"
@@ -206,7 +206,7 @@ export default function Skills() {
           </p>
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-blue-300 dark:focus:ring-blue-800 delay-150"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-blue-300 dark:focus:ring-blue-800 delay-150 "
           >
             Read more
             <svg
@@ -226,7 +226,7 @@ export default function Skills() {
         </div>
       </div>
       {/* 6 */}
-      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-yellow-600 duration-100 delay-100 hover:opacity-80">
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg hover:shadow-yellow-600 delay-100 hover:opacity-80 transform hover:scale-105 transition-all duration-300 ease-in-out">
         <a href="#">
           <img
             class="rounded-t-lg"
