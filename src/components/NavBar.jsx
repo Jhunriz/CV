@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import image from "../image/cv-lalata.png";
 
 export default function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,9 +13,13 @@ export default function NavBar() {
     <div className=" relative">
       <nav className="bg-transparent fixed top-10 right-0 z-10 w-full md:right-10">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="https://flowbite.com/" className="flex items-center">
-            {/* <img src="" className="h-8 mr-3" alt="Flowbite Logo" /> */}
-          </a>
+          <Link to={"/"}>
+            <img
+              src={image}
+              className="h-24 pl-11 transform hover:scale-150 transition-all duration-100 ease-in-out"
+              alt="Jhunriz"
+            />
+          </Link>
           <button
             onClick={toggleMobileMenu}
             type="button"
