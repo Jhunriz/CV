@@ -25,11 +25,11 @@ export default function NavBar() {
           <button
             onClick={toggleMobileMenu}
             type="button"
-            className="inline-flex items-center p-5 ml-44 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-4 ml-32 md:ml-60 lg:ml:96 sm:ml-56 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded={isMobileMenuOpen ? "true" : "false"}
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">Open main menu:</span>
             <svg
               className="w-6 h-6"
               aria-hidden="true"
