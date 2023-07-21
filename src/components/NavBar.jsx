@@ -29,7 +29,7 @@ export default function NavBar() {
             aria-controls="navbar-default"
             aria-expanded={isMobileMenuOpen ? "true" : "false"}
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">Open main menu:</span>
             <svg
               className="w-6 h-6"
               aria-hidden="true"
