@@ -15,7 +15,7 @@ export default function Content() {
           <div>
             <div className="flex flex-col items-start justify-start text-lg">
               <p>Frontend Developer</p>
-              <span className="text-4xl transform hover:scale-105 transition-all duration-100 ease-in-out hover:text-6xl hover:text-blue-600">
+              <span className="text-4xl transform hover:scale-105 transition-all duration-100 ease-in-out hover:text-6xl hover:text-blue-600 py-10">
                 <b>Jhunriz Lalata</b>
               </span>
             </div>
